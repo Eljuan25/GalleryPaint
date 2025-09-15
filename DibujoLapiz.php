@@ -32,7 +32,7 @@
             <div class="header-txt"> 
                 <h1>Dibujo a Lapiz</h1><br>
                 <h2>¿Como Aprender a dibujar?</h2>
-                <p>El dibujo es un lenguaje visual que todos podemos aprender. Empezar es más sencillo de lo que crees: solo necesitas un lápiz, papel y muchas ganas. Con prácticas constante descubiraras que dibujar no se trata de hacerlo perfecto, sino de expresar ideas y mejorar paso a paso</p>
+                <p>El dibujo a lápiz es una técnica fundamental en el arte que utiliza lápices de grafito para crear imágenes sobre papel u otras superficies. Se caracteriza por su versatilidad, permitiendo desde trazos ligeros y delicados hasta sombreados profundos y texturas detalladas. Esta técnica es ideal para principiantes, ya que requiere pocos materiales y ofrece un control preciso para explorar formas, proporciones y volúmenes. Con práctica, se pueden lograr efectos realistas o abstractos, haciendo del lápiz una herramienta esencial para desarrollar habilidades artísticas y expresar ideas de manera sencilla pero efectiva.</p>
             </div>
             <div class="header-img">
                 <img src="img\dibujolapiz1.jpg" >

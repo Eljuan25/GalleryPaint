@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Dibujo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <a href="#" class="logo">Tecnicas Dibujo</a>
+                <input type="checkbox" id="menu">
+                <label for="menu">
+                    <img src="img/menu.png" class="menu-icono" alt="menu">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.php#servicios"> Inicio </a></li>
+                        <li><a href="index.php#servicios"> Aprender </a></li>
+                        <li><a href="index.php#servicios"> Tecnicas </a></li>
+                        <li><a href="index.php#servicios"> Estilos </a></li>
+                    </ul>
+                </nav>
+            </div>
+       </head>
+
+<section class="estilos container" id="estilos" style="padding: 50px 0;">
+    <h2>Estilos de Dibujo y Pintura</h2>
+    <p>
+        Existen muchos estilos dentro del dibujo y la pintura. Cada estilo tiene sus propias características y técnicas, y permite expresar ideas de manera única. Conocerlos te ayudará a encontrar tu estilo personal y a experimentar con diferentes formas de arte.
+    </p>
+
+    <div class="estilos-grid" style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 30px;">
+        
+        <div class="estilo" style="flex: 1; min-width: 250px; text-align: center;">
+            <img src="img/realismo.jpg" alt="Realismo" style="width: 100%; border-radius: 10px;">
+            <h3>Realismo</h3>
+            <p>Busca representar la realidad de forma precisa, con proporciones, luces y sombras detalladas.</p>
+        </div>
+
+        <div class="estilo" style="flex: 1; min-width: 250px; text-align: center;">
+            <img src="img/caricatura.png" alt="Caricatura" style="width: 100%; border-radius: 10px;">
+            <h3>Caricatura</h3>
+            <p>Se centra en exagerar rasgos y expresiones para crear imágenes divertidas o humorísticas.</p>
+        </div>
+
+        <div class="estilo" style="flex: 1; min-width: 250px; text-align: center;">
+            <img src="img/manga.jpg" alt="Manga" style="width: 100%; border-radius: 10px;">
+            <h3>Manga / Anime</h3>
+            <p>Estilo japonés caracterizado por ojos grandes, expresiones exageradas y líneas dinámicas.</p>
+        </div>
+
+        <div class="estilo" style="flex: 1; min-width: 250px; text-align: center;">
+            <img src="img/expresionismo.jpg" alt="Expresionismo" style="width: 100%; border-radius: 10px;">
+            <h3>Expresionismo</h3>
+            <p>Busca transmitir emociones más que la realidad, usando colores intensos y trazos libres.</p>
+        </div>
+
+        <div class="estilo" style="flex: 1; min-width: 250px; text-align: center;">
+            <img src="img/abstracto.jpg" alt="Abstracto" style="width: 100%; border-radius: 10px;">
+            <h3>Abstracto</h3>
+            <p>No intenta representar la realidad, sino formas, colores y texturas para transmitir sensaciones.</p>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+</body>
+</htmml>

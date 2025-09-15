@@ -19,9 +19,9 @@
                 <nav class="navbar">
                     <ul>
                         <li><a href="#"> Inicio </a></li>
-                        <li><a href="#"> Aprender </a></li>
-                        <li><a href="#"> Tecnicas </a></li>
-                        <li><a href="#"> Estilos </a></li>
+                        <li><a href="#servicios"> Aprender </a></li>
+                        <li><a href="#servicios"> Tecnicas </a></li>
+                        <li><a href="Estilos.php"> Estilos </a></li>
                     </ul>
                 </nav>
             </div>
@@ -64,7 +64,7 @@
         </div>
     </section>
 
-    <main class="servicios">
+    <main class="servicios" id="servicios">
         <h2>Técnicas Básicas de Dibujo</h2>
         <div class="servicios-content container">
 
@@ -110,21 +110,14 @@
             <div class="link">
                   <ul>
                     <li><a href="#"> Inicio </a></li>
-                    <li><a href="#"> Aprender </a></li>
-                    <li><a href="#"> Tecnicas </a></li>
-                    <li><a href="#"> Estilos </a></li>
+                    <li><a href="#servicios"> Aprender </a></li>
+                    <li><a href="#servicios"> Tecnicas </a></li>
+                    <li><a href="Estilos.php"> Estilos </a></li>
                 </ul>
             </div>
         </div>
     </footer>
-
-
-
-
-
-
      <scrip>
-       
      </scrip>
 
 

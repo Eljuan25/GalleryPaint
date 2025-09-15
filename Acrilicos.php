@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Dibujo Acrílicos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <a href="#" class="logo">Técnicas Acrílicos</a>
+                <input type="checkbox" id="menu">
+                <label for="menu">
+                    <img src="img/menu.png" class="menu-icono" alt="menu">
+                </label>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.php#servicios">Inicio</a></li>
+                        <li><a href="index.php#servicios">Aprender</a></li>
+                        <li><a href="index.php#servicios">Técnicas</a></li>
+                        <li><a href="index.php#servicios">Estilos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt"> 
+                <h1>Dibujo con Acrílicos</h1><br>
+                <h2>¿Cómo aprender a pintar con acrílicos?</h2>
+                <p>
+                    La pintura acrílica es una técnica versátil que utiliza pigmentos mezclados con un aglutinante acrílico. Permite trabajar sobre lienzo, madera, cartón y otras superficies. Es ideal para experimentar con capas, texturas y colores vivos, y se seca rápidamente, lo que permite corregir y superponer colores con facilidad.
+                </p>
+            </div>
+            <div class="header-img">
+                <img src="img/dibujo_acrilico1.jpg" alt="Ejemplo acrílico" style="width: 350px;">
+            </div>
+        </div>
+    </header>
+
+    <h2>¿Cómo aprender a pintar con acrílicos?</h2>
+
+    <section class="pasos container">
+        <div class="paso">
+            <h3>1. Material básico</h3>
+            <p>
+                Para empezar con acrílicos necesitas pinceles de diferentes tamaños y formas, pinturas acrílicas en tubos, paleta para mezclar colores, lienzo o papel especial para acrílico, agua para limpiar pinceles, y trapo o papel absorbente.
+            </p>
+            <img src="img/accesorios_acrilico.jpg" alt="Materiales de acrílico" style="width: 350px;">
+        </div>
+
+        <div class="paso">
+            <h3>2. Ejercicios de color y pincel</h3>
+            <p>
+                Practica cómo se comporta la pintura acrílica: líneas, trazos y rellenos con pincel seco o húmedo, mezcla de colores y degradados simples. Observa cómo se pueden superponer capas sin que se mezclen demasiado.
+            </p>
+            <img src="img/trazos_acrilico.jpg" alt="Ejercicios de acrílico" style="width: 350px;">
+        </div>
+
+        <div class="paso">
+            <h3>3. Formas básicas y capas</h3>
+            <p>
+                Empieza pintando formas simples como círculos, cuadrados o triángulos. Aprende a aplicar capas de color, desde la base hasta detalles finales, para controlar la saturación y la intensidad.
+            </p>
+            <img src="img/formas_acrilico.jpg" alt="Formas básicas en acrílico" style="width: 350px;">
+        </div>
+
+        <div class="paso">
+            <h3>4. Texturas y efectos</h3>
+            <p>
+                Experimenta con técnicas como pincel seco, espátula, salpicado y mezcla directa de colores sobre el lienzo. Los acrílicos permiten crear texturas interesantes y efectos de relieve.
+            </p>
+            <img src="img/efectos_acrilico.jpg" alt="Efectos en acrílico" style="width: 350px;">
+        </div>
+
+        <div class="paso">
+            <h3>5. Observación y práctica</h3>
+            <p>
+                Observa objetos reales y practica copiando colores, luces y sombras. Puedes pintar paisajes, flores o cualquier objeto sencillo, experimentando con capas y mezclas para mejorar tu técnica.
+            </p>
+            <img src="img/observacion_acrilico.jpg" alt="Ejercicio de observación en acrílico" style="width: 350px;">
+        </div>
+    </section>
+
+    <section class="container ejemplo" style="display: flex; align-items: flex-start; gap: 20px;">
+        <div style="flex: 1;">
+            <h2>Ejemplo práctico: Ejercicio libre</h2>
+            <p>Para aplicar lo aprendido, realiza un ejercicio libre usando acrílicos:</p>
+            <ul>
+                <li>Elige cualquier objeto, paisaje o idea que quieras pintar.</li>
+                <li>Aplica las técnicas vistas: capas, degradados, texturas y mezclas de color.</li>
+                <li>No te preocupes por el resultado, enfócate en experimentar y disfrutar del proceso.</li>
+                <li>Ajusta colores y detalles según tu gusto y creatividad.</li>
+            </ul>
+        </div>
+        <div>
+            <img src="img/ejercicio_libre_acrilico.jpg" alt="Ejercicio libre en acrílico" style="width: 350px; border-radius: 10px;">
+        </div>
+    </section>
+</body>
+</html>
