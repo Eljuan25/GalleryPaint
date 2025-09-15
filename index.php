@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galleria Dibujo</title>
+    <title>Galeria Dibujo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
@@ -29,7 +29,7 @@
 
         <div class="header-content container">
             <div class="header-txt"> 
-                <h1>Galleria Dibujo</h1><br>
+                <h1>Galeria Dibujo</h1><br>
                 <h2>¿Como Aprender a dibujar?</h2>
                 <p>El dibujo es un lenguaje visual que todos podemos aprender. Empezar es más sencillo de lo que crees: solo necesitas un lápiz, papel y muchas ganas. Con prácticas constante descubiraras que dibujar no se trata de hacerlo perfecto, sino de expresar ideas y mejorar paso a paso</p>
                 <a href="#" class="btn-1">Informacion</a>
@@ -68,35 +68,35 @@
         <h2>Técnicas Básicas de Dibujo</h2>
         <div class="servicios-content container">
 
-            <div class="servicio-1">
-                <i class="fa-sharp fa-solid fa-pencil"></i>
-                <h3>Dibujo a Lápiz</h3>
-                <p>Comienza con lo esencial: trazos, figuras básicas y sombreado para dar volumen.</p>
-            </div>
+     <a href="DibujoLapiz.php" class="servicio-1">
+        <i class="fa-sharp fa-solid fa-pencil"></i>
+        <h3>Dibujo a Lápiz</h3>
+        <p>Comienza con lo esencial: trazos, figuras básicas y sombreado para dar volumen.</p>
+     </a>
 
-            <div class="servicio-1">
-                <i class="fa-sharp fa-solid fa-fill-drip"></i>
-                <h3>Acuarela</h3>
-                <p>Explora cómo mezclar colores y crear efectos suaves con agua y pincel.</p>
-            </div>
+    <a href="Acuarela.php" class="servicio-1">
+        <i class="fa-sharp fa-solid fa-fill-drip"></i>
+        <h3>Acuarela</h3>
+        <p>Explora cómo mezclar colores y crear efectos suaves con agua y pincel.</p>
+    </a>
 
-            <div class="servicio-1">
-                <i class="fa-sharp fa-solid fa-paintbrush"></i>
-                <h3>Acrílicos</h3>
-                <p>Aprende a usar la pintura acrílica para lograr colores intensos y expresivos.</p>
-            </div>
+    <a href="Acrilicos.php" class="servicio-1">
+        <i class="fa-sharp fa-solid fa-paintbrush"></i>
+        <h3>Acrílicos</h3>
+        <p>Aprende a usar la pintura acrílica para lograr colores intensos y expresivos.</p>
+    </a>
 
-            <div class="servicio-1">
-                <i class="fa-sharp fa-solid fa-hand-sparkles"></i>
-                <h3>Soltar la Mano</h3>
-                <p>Ejercicios sencillos para mejorar tu confianza y fluidez al dibujar.</p>
-            </div>
+    <a href="Soltar.php" class="servicio-1">
+        <i class="fa-sharp fa-solid fa-hand-sparkles"></i>
+        <h3>Soltar la Mano</h3>
+        <p>Ejercicios sencillos para mejorar tu confianza y fluidez al dibujar.</p>
+    </a>
 
-            <div class="servicio-1">
-                <i class="fa-sharp fa-solid fa-tablet-screen-button"></i>
-                <h3>Dibujo Digital</h3>
-                <p>Introduce el uso de tabletas gráficas y programas básicos para crear arte digital.</p>
-            </div>
+    <a href="DibujoDigital.php" class="servicio-1">
+        <i class="fa-sharp fa-solid fa-tablet-screen-button"></i>
+        <h3>Dibujo Digital</h3>
+        <p>Introduce el uso de tabletas gráficas y programas básicos para crear arte digital.</p>
+    </a>
 
         </div>
     </main>
@@ -121,9 +121,6 @@
 
 
 
-     <?php
-        include("send.php");
-     ?>
 
 
      <scrip>
